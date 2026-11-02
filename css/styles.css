@@ -153,11 +153,19 @@ ul {
 .user-info {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   background-color: #483978;
   color: white;
   font-size: 1.125em;
   padding-bottom: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.user-info .bio {
+  max-width: 35em;
 }
 
 .user-info figure {

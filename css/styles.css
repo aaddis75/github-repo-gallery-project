@@ -153,7 +153,6 @@ ul {
 .user-info {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: #483978;
@@ -192,6 +191,7 @@ ul {
   padding: 0;
   border-bottom: 1px solid #9b8dc9;
   padding-bottom: 19px;
+  padding-top: 19px;
 }
 
 .search-container {

@@ -12,7 +12,7 @@ body {
   justify-content: center;
   margin: 0;
   font-family: "Open Sans", sans-serif;
-  background-color: #fbf9de;
+  background-color: #f2e8cf;
   color: #333;
   font-size: 1rem;
 }
@@ -72,7 +72,7 @@ body {
 }
 
 .fa-github-alt {
-  color: #f86d58;
+  color: #f2e8cf;
 }
 
 img {
@@ -87,7 +87,7 @@ h1 {
   font-size: 3.5rem;
   text-align: center;
   font-family: "Oswald", sans-serif;
-  background-color: #483978;
+  background-color: #386641;
   color: #fff;
   text-transform: uppercase;
   border-top-left-radius: 20px;
@@ -95,7 +95,7 @@ h1 {
 }
 
 h2 {
-  color: #F7614A;
+  color: #936639;
   font-size: 1.25rem;
   margin: 0;
   text-align: left;
@@ -105,7 +105,7 @@ h2 {
 .badge {
   height: 80px;
   width: 50px;
-  background-color: grey;
+  background-color: #b6ad90;
   z-index: 98;
   margin: 10px auto -35px auto;
   border-radius: 10px;
@@ -117,7 +117,7 @@ h2 {
 .circle {
   width: 20px;
   height: 20px;
-  background-color: #483978;
+  background-color: #;
   border-radius: 100%;
   z-index: 99;
   align-self: center;
@@ -155,7 +155,7 @@ ul {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  background-color: #483978;
+  background-color: #386641;
   color: white;
   font-size: 1.125em;
   padding-bottom: 2em;
@@ -189,7 +189,7 @@ ul {
   width: 100%;
   margin: 0;
   padding: 0;
-  border-bottom: 1px solid #9b8dc9;
+  border-bottom: 1px solid #6a994e;
   padding-bottom: 19px;
   padding-top: 19px;
 }
@@ -201,7 +201,7 @@ ul {
 
 .fa-search {
   font-size: 1.5rem;
-  color: #483978;
+  color: #386641;
   margin-right: .5em;
 }
 
@@ -211,11 +211,11 @@ ul {
   margin-top: 1em;
   padding: 1em;
   margin-bottom: 1em;
-  border: 2px solid #483978;
+  border: 2px solid #386641;
 }
 
 .filter-repos:focus {
-  outline: 3px solid #483978;
+  outline: 3px solid #386641;
 }
 
 section.repo-data {
@@ -244,13 +244,13 @@ section.repo-data {
 .repo-list li {
   width: 90%;
   margin: 1em 0;
-  border: 1px solid #F7614A;
+  border: 1px solid #936639;
 }
 
 .repo-list .repo-name {
   background: none;
   border: none;
-  color: #F7614A;
+  color: #936639;
   cursor: pointer;
   font-family: inherit;
   font-size: 1.25rem;
@@ -262,7 +262,7 @@ section.repo-data {
 }
 
 .repo-list .repo-name:hover {
-  background-color: #F7614A;
+  background-color: #936639;
   color: #fff;
 }
 
@@ -278,13 +278,13 @@ section.repo-data {
   margin-top: 2em;
   cursor: pointer;
   display: block;
-  background-color: #483978;
-  border: 1px solid #483978;
+  background-color: #386641;
+  border: 1px solid #386641;
   border-radius: 20px;
 }
 
 .repo-data .visit:hover {
-  background-color: #2f2550;
+  background-color: #718355;
   border: 1px solid #ccc;
 }
 

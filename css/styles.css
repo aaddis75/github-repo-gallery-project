@@ -248,6 +248,7 @@ section.repo-data {
   width: 90%;
   margin: 1em 0;
   border: 1px solid #936639;
+  box-shadow: 10px 5px 5px #6a994e;
 }
 
 .repo-list .repo-name {

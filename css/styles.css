@@ -112,6 +112,8 @@ h2 {
   display: flex;
   flex-direction: column;
   position: relative;
+  transform-origin: top;
+  animation: badge-swing 2s ease-in-out 1;
 }
 
 .circle {
@@ -202,7 +204,7 @@ ul {
 .fa-search {
   font-size: 1.5rem;
   color: #386641;
-  margin-right: .5em;
+  margin-right: 0.5em;
 }
 
 .filter-repos {
@@ -248,6 +250,9 @@ section.repo-data {
 }
 
 .repo-list .repo-name {
+  transition:
+    background-color 0.5s,
+    color 0.5s;
   background: none;
   border: none;
   color: #936639;
@@ -328,5 +333,26 @@ section.repo-data {
 @media (min-width: 1200px) {
   .repo-list li {
     width: 30%;
+  }
+}
+
+@keyframes badge-swing {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(25deg);
+  }
+  40% {
+    transform: rotate(-15deg);
+  }
+  60% {
+    transform: rotate(10deg);
+  }
+  80% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
   }
 }

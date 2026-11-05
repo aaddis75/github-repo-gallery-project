@@ -178,6 +178,7 @@ ul {
 
 .user-info img {
   border-radius: 100%;
+  border: 6px solid #f2e8cf;
 }
 
 .user-info div {

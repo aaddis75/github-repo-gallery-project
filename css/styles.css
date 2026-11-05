@@ -96,7 +96,7 @@ h1 {
 }
 
 h2 {
-  color: #936639;
+  color: #AC7035;
   font-size: 1.25rem;
   margin: 0;
   text-align: left;
@@ -248,7 +248,7 @@ section.repo-data {
 .repo-list li {
   width: 90%;
   margin: 1em 0;
-  border: 1px solid #936639;
+  border: 1px solid #AC7035;
   box-shadow: 10px 5px 5px #6a994e;
 }
 
@@ -258,7 +258,7 @@ section.repo-data {
     color 0.5s;
   background: none;
   border: none;
-  color: #936639;
+  color: #AC7035;
   cursor: pointer;
   font-family: inherit;
   font-size: 1.25rem;
@@ -270,7 +270,7 @@ section.repo-data {
 }
 
 .repo-list .repo-name:hover {
-  background-color: #936639;
+  background-color: #AC7035;
   color: #fff;
 }
 
@@ -293,6 +293,8 @@ section.repo-data {
   background-color: #386641;
   border: 1px solid #386641;
   border-radius: 20px;
+  transition: background-color 2s,
+    color 2s;
 }
 
 .repo-data .visit:focus{

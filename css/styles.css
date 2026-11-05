@@ -273,6 +273,10 @@ section.repo-data {
   color: #fff;
 }
 
+.repo-list .repo-name:focus {
+  outline: 3px solid #6a994e;
+}
+
 .repo-data {
   width: 100%;
 }
@@ -290,6 +294,10 @@ section.repo-data {
   border-radius: 20px;
 }
 
+.repo-data .visit:focus{
+  outline: 2px solid #386641;
+}
+
 .repo-data .visit:hover {
   background-color: #718355;
   border: 1px solid #ccc;
@@ -305,10 +313,15 @@ section.repo-data {
 .view-repos {
   max-width: 200px;
   margin-top: 0;
+  border: 2px solid #386641;
 }
 
 .view-repos:hover {
   background-color: gray;
+}
+
+.view-repos:focus {
+   outline: 2px solid #386641;
 }
 
 @media (min-width: 700px) {

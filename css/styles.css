@@ -168,6 +168,7 @@ ul {
 
 .user-info .bio {
   max-width: 35em;
+  line-height: 1.5;
 }
 
 .user-info figure {
@@ -314,10 +315,12 @@ section.repo-data {
   max-width: 200px;
   margin-top: 0;
   border: 2px solid #386641;
+  transition: background-color 2s,
+    color 2s;
 }
 
 .view-repos:hover {
-  background-color: gray;
+  background-color: #6a994e;
 }
 
 .view-repos:focus {
